@@ -76,6 +76,12 @@ nav a:visited{
     }
 }
 
+@media only screen and (max-width: 400px){
+    nav li{
+        font-size: 1rem;
+        padding: .2rem;
+    }
+}
 /*Main content*/
 
 main {
@@ -257,8 +263,29 @@ main {
         width: 28rem;
         margin-bottom: 1rem;
     }
+
  }
 
+ @media only screen and (max-width: 480px){
+    .agent-container{
+        width: 23rem;
+    }
+ }
+
+ @media only screen and (max-width: 400px){
+    .agent-container{
+        width: 19rem;
+    }
+
+    .agent-container h4{
+        font-size: 1.25;
+    }
+
+    .agent-container li{
+        font-size: .8rem;
+    }
+ 
+}
 /*Sevices*/
 
 #Services{
