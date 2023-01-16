@@ -118,6 +118,7 @@ main {
     background-size: cover;
     box-shadow: 0 1rem .5rem 0 rgba( 47, 79, 79, 1);
     border-top: .25rem solid rgba(179, 136, 28, 0.756);
+    letter-spacing: .1rem;
 }
 
 .jumbotron h1{
@@ -283,6 +284,7 @@ main {
 
     .agent-container li{
         font-size: .8rem;
+        font-weight: 600;
     }
  
 }
